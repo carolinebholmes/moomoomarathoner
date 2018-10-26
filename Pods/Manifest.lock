@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - InstantSearch (3.0.0):
+    - InstantSearch/UI (= 3.0.0)
+  - InstantSearch/UI (3.0.0):
+    - InstantSearchCore (~> 4.0)
+  - InstantSearchClient (6.0.0)
+  - InstantSearchCore (4.0.0):
+    - InstantSearchClient (~> 6.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - InstantSearch
+  - InstantSearchClient (~> 6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - InstantSearch
+    - InstantSearchClient
+    - InstantSearchCore
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  InstantSearch: 93baab68799cc64a06f26cadbcce829c450ef7ad
+  InstantSearchClient: d7dfd6a8dc8c7042da91614cdd406c908a4dba88
+  InstantSearchCore: d7213fee88c766297624c54f8257cff987cd1037
+
+PODFILE CHECKSUM: 4f8f4a3c35b7e6d07d98848acca5c81f30d871da
+
+COCOAPODS: 1.5.3

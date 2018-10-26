@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import InstantSearch
 
-class ViewController: UIViewController {
+class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
+    InstantSearch.shared.registerAllWidgets(in: self.view)
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

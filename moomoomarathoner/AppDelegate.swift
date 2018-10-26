@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import InstantSearch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        InstantSearch.shared.configure(appID: "AYID69G7RU", apiKey: "70d9d2ebf2fce67a29283530834aa935", index: "courses")
+        InstantSearch.shared.params.attributesToRetrieve = ["Track", "Cup"]
+        InstantSearch.shared.params.attributesToHighlight = ["Track"]
+
+
         return true
     }
 

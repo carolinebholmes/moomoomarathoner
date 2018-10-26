@@ -1,0 +1,6 @@
+framework module Pods_moomoomarathonerUITests {
+  umbrella header "Pods-moomoomarathonerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

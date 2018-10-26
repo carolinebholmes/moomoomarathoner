@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0AC100B821828C8000800920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC100B721828C8000800920 /* AppDelegate.swift */; };
-		0AC100BA21828C8000800920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC100B921828C8000800920 /* ViewController.swift */; };
+		0AC100BA21828C8000800920 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC100B921828C8000800920 /* SearchViewController.swift */; };
 		0AC100BD21828C8000800920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC100BB21828C8000800920 /* Main.storyboard */; };
 		0AC100C021828C8000800920 /* moomoomarathoner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AC100BE21828C8000800920 /* moomoomarathoner.xcdatamodeld */; };
 		0AC100C221828C8100800920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC100C121828C8100800920 /* Assets.xcassets */; };
 		0AC100C521828C8100800920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC100C321828C8100800920 /* LaunchScreen.storyboard */; };
 		0AC100D021828C8100800920 /* moomoomarathonerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC100CF21828C8100800920 /* moomoomarathonerTests.swift */; };
 		0AC100DB21828C8100800920 /* moomoomarathonerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC100DA21828C8100800920 /* moomoomarathonerUITests.swift */; };
+		0ACB26AD2182A52E009240A2 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB26AC2182A52E009240A2 /* LaunchViewController.swift */; };
+		114CD10DE213FF0324FC9639 /* Pods_moomoomarathonerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DFB20B4996AA1DECD30091 /* Pods_moomoomarathonerUITests.framework */; };
+		39C8F0F5390DE7288EDBD4F4 /* Pods_moomoomarathoner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B81696FB065A328CB65AA2 /* Pods_moomoomarathoner.framework */; };
+		F45EECBF8BCD28674DA684E1 /* Pods_moomoomarathonerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C751071A4EE3479E4BC186E0 /* Pods_moomoomarathonerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0AC100B421828C8000800920 /* moomoomarathoner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moomoomarathoner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC100B721828C8000800920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AC100B921828C8000800920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AC100B921828C8000800920 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0AC100BC21828C8000800920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AC100BF21828C8000800920 /* moomoomarathoner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moomoomarathoner.xcdatamodel; sourceTree = "<group>"; };
 		0AC100C121828C8100800920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,16 @@
 		0AC100D621828C8100800920 /* moomoomarathonerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moomoomarathonerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC100DA21828C8100800920 /* moomoomarathonerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moomoomarathonerUITests.swift; sourceTree = "<group>"; };
 		0AC100DC21828C8100800920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACB26AC2182A52E009240A2 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		32CE6AC6A32CDD8B8D4FA7B1 /* Pods-moomoomarathoner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moomoomarathoner.release.xcconfig"; path = "Pods/Target Support Files/Pods-moomoomarathoner/Pods-moomoomarathoner.release.xcconfig"; sourceTree = "<group>"; };
+		67CC2BB41F4476C2CD27C12B /* Pods-moomoomarathonerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moomoomarathonerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moomoomarathonerTests/Pods-moomoomarathonerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77E572D9CFB7F3B58B61223A /* Pods-moomoomarathoner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moomoomarathoner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moomoomarathoner/Pods-moomoomarathoner.debug.xcconfig"; sourceTree = "<group>"; };
+		84CAE0D99A184897970BA09F /* Pods-moomoomarathonerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moomoomarathonerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moomoomarathonerUITests/Pods-moomoomarathonerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95A59E32C8AB5CCC20F555A3 /* Pods-moomoomarathonerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moomoomarathonerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moomoomarathonerTests/Pods-moomoomarathonerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4DFB20B4996AA1DECD30091 /* Pods_moomoomarathonerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moomoomarathonerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA34ABC6B9534D498792D9AD /* Pods-moomoomarathonerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moomoomarathonerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moomoomarathonerUITests/Pods-moomoomarathonerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C751071A4EE3479E4BC186E0 /* Pods_moomoomarathonerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moomoomarathonerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B81696FB065A328CB65AA2 /* Pods_moomoomarathoner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moomoomarathoner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C8F0F5390DE7288EDBD4F4 /* Pods_moomoomarathoner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45EECBF8BCD28674DA684E1 /* Pods_moomoomarathonerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114CD10DE213FF0324FC9639 /* Pods_moomoomarathonerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6D34AE218291C400DEAFC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A6D34AF218291CD00DEAFC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB26AC2182A52E009240A2 /* LaunchViewController.swift */,
+				0AC100B921828C8000800920 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		0AC100AB21828C8000800920 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				0AC100CE21828C8100800920 /* moomoomarathonerTests */,
 				0AC100D921828C8100800920 /* moomoomarathonerUITests */,
 				0AC100B521828C8000800920 /* Products */,
+				0B372BBB871CC886AF917727 /* Pods */,
+				A6855E54CA40E0B83FB498DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +134,9 @@
 		0AC100B621828C8000800920 /* moomoomarathoner */ = {
 			isa = PBXGroup;
 			children = (
+				0A6D34AF218291CD00DEAFC1 /* Controllers */,
+				0A6D34AE218291C400DEAFC1 /* Views */,
 				0AC100B721828C8000800920 /* AppDelegate.swift */,
-				0AC100B921828C8000800920 /* ViewController.swift */,
 				0AC100BB21828C8000800920 /* Main.storyboard */,
 				0AC100C121828C8100800920 /* Assets.xcassets */,
 				0AC100C321828C8100800920 /* LaunchScreen.storyboard */,
@@ -128,6 +164,29 @@
 			path = moomoomarathonerUITests;
 			sourceTree = "<group>";
 		};
+		0B372BBB871CC886AF917727 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77E572D9CFB7F3B58B61223A /* Pods-moomoomarathoner.debug.xcconfig */,
+				32CE6AC6A32CDD8B8D4FA7B1 /* Pods-moomoomarathoner.release.xcconfig */,
+				67CC2BB41F4476C2CD27C12B /* Pods-moomoomarathonerTests.debug.xcconfig */,
+				95A59E32C8AB5CCC20F555A3 /* Pods-moomoomarathonerTests.release.xcconfig */,
+				BA34ABC6B9534D498792D9AD /* Pods-moomoomarathonerUITests.debug.xcconfig */,
+				84CAE0D99A184897970BA09F /* Pods-moomoomarathonerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6855E54CA40E0B83FB498DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5B81696FB065A328CB65AA2 /* Pods_moomoomarathoner.framework */,
+				C751071A4EE3479E4BC186E0 /* Pods_moomoomarathonerTests.framework */,
+				B4DFB20B4996AA1DECD30091 /* Pods_moomoomarathonerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AC100DF21828C8100800920 /* Build configuration list for PBXNativeTarget "moomoomarathoner" */;
 			buildPhases = (
+				7422E1D8FF9204F73A37D2B3 /* [CP] Check Pods Manifest.lock */,
 				0AC100B021828C8000800920 /* Sources */,
 				0AC100B121828C8000800920 /* Frameworks */,
 				0AC100B221828C8000800920 /* Resources */,
+				CA8107117AF6D1D30E5C7E9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AC100E221828C8100800920 /* Build configuration list for PBXNativeTarget "moomoomarathonerTests" */;
 			buildPhases = (
+				2F5A8771F7E89245317ED791 /* [CP] Check Pods Manifest.lock */,
 				0AC100C721828C8100800920 /* Sources */,
 				0AC100C821828C8100800920 /* Frameworks */,
 				0AC100C921828C8100800920 /* Resources */,
@@ -170,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AC100E521828C8100800920 /* Build configuration list for PBXNativeTarget "moomoomarathonerUITests" */;
 			buildPhases = (
+				AA864962C9AAE23AD51DC71C /* [CP] Check Pods Manifest.lock */,
 				0AC100D221828C8100800920 /* Sources */,
 				0AC100D321828C8100800920 /* Frameworks */,
 				0AC100D421828C8100800920 /* Resources */,
@@ -254,14 +317,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F5A8771F7E89245317ED791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moomoomarathonerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7422E1D8FF9204F73A37D2B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moomoomarathoner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA864962C9AAE23AD51DC71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moomoomarathonerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8107117AF6D1D30E5C7E9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-moomoomarathoner/Pods-moomoomarathoner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/InstantSearch/InstantSearch.framework",
+				"${BUILT_PRODUCTS_DIR}/InstantSearchClient/InstantSearchClient.framework",
+				"${BUILT_PRODUCTS_DIR}/InstantSearchCore/InstantSearchCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantSearchClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantSearchCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moomoomarathoner/Pods-moomoomarathoner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AC100B021828C8000800920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0AC100C021828C8000800920 /* moomoomarathoner.xcdatamodeld in Sources */,
-				0AC100BA21828C8000800920 /* ViewController.swift in Sources */,
+				0AC100BA21828C8000800920 /* SearchViewController.swift in Sources */,
 				0AC100B821828C8000800920 /* AppDelegate.swift in Sources */,
+				0ACB26AD2182A52E009240A2 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +595,7 @@
 		};
 		0AC100E021828C8100800920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E572D9CFB7F3B58B61223A /* Pods-moomoomarathoner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +614,7 @@
 		};
 		0AC100E121828C8100800920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CE6AC6A32CDD8B8D4FA7B1 /* Pods-moomoomarathoner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +633,7 @@
 		};
 		0AC100E321828C8100800920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CC2BB41F4476C2CD27C12B /* Pods-moomoomarathonerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +655,7 @@
 		};
 		0AC100E421828C8100800920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A59E32C8AB5CCC20F555A3 /* Pods-moomoomarathonerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +677,7 @@
 		};
 		0AC100E621828C8100800920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA34ABC6B9534D498792D9AD /* Pods-moomoomarathonerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +698,7 @@
 		};
 		0AC100E721828C8100800920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CAE0D99A184897970BA09F /* Pods-moomoomarathonerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
